@@ -18,6 +18,7 @@
 		B0F7CFBF22E8CEEB001F9108 /* Transaction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7CFBE22E8CEEB001F9108 /* Transaction.storyboard */; };
 		B0F7CFC122E8CF03001F9108 /* AddTransaction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7CFC022E8CF03001F9108 /* AddTransaction.storyboard */; };
 		B0F7CFC422E8CF5A001F9108 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7CFC322E8CF5A001F9108 /* DashboardViewController.swift */; };
+		B0F7CFC622E8D492001F9108 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7CFC522E8D492001F9108 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B0F7CFBE22E8CEEB001F9108 /* Transaction.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transaction.storyboard; sourceTree = "<group>"; };
 		B0F7CFC022E8CF03001F9108 /* AddTransaction.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddTransaction.storyboard; sourceTree = "<group>"; };
 		B0F7CFC322E8CF5A001F9108 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		B0F7CFC522E8D492001F9108 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				B0F7CFBC22E8CEDB001F9108 /* Dashboard.storyboard */,
 				B0F7CFBE22E8CEEB001F9108 /* Transaction.storyboard */,
 				B0F7CFC022E8CF03001F9108 /* AddTransaction.storyboard */,
+				B0F7CFC522E8D492001F9108 /* Profile.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				5305790E22E7F6C000C8A5CC /* Assets.xcassets in Resources */,
 				B0F7CFC122E8CF03001F9108 /* AddTransaction.storyboard in Resources */,
 				5305790922E7F6BF00C8A5CC /* Main.storyboard in Resources */,
+				B0F7CFC622E8D492001F9108 /* Profile.storyboard in Resources */,
 				B0F7CFBD22E8CEDB001F9108 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

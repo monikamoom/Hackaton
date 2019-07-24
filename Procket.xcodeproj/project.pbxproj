@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5305790022E7F6BF00C8A5CC /* Hackaton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackaton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5305790022E7F6BF00C8A5CC /* Procket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Procket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5305790322E7F6BF00C8A5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5305790522E7F6BF00C8A5CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5305790822E7F6BF00C8A5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		5305790122E7F6BF00C8A5CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5305790022E7F6BF00C8A5CC /* Hackaton.app */,
+				5305790022E7F6BF00C8A5CC /* Procket.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,9 +104,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		530578FF22E7F6BF00C8A5CC /* Hackaton */ = {
+		530578FF22E7F6BF00C8A5CC /* Procket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5305791522E7F6C000C8A5CC /* Build configuration list for PBXNativeTarget "Hackaton" */;
+			buildConfigurationList = 5305791522E7F6C000C8A5CC /* Build configuration list for PBXNativeTarget "Procket" */;
 			buildPhases = (
 				530578FC22E7F6BF00C8A5CC /* Sources */,
 				530578FD22E7F6BF00C8A5CC /* Frameworks */,
@@ -116,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = Hackaton;
+			name = Procket;
 			productName = Hackaton;
-			productReference = 5305790022E7F6BF00C8A5CC /* Hackaton.app */;
+			productReference = 5305790022E7F6BF00C8A5CC /* Procket.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 530578FB22E7F6BF00C8A5CC /* Build configuration list for PBXProject "Hackaton" */;
+			buildConfigurationList = 530578FB22E7F6BF00C8A5CC /* Build configuration list for PBXProject "Procket" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				530578FF22E7F6BF00C8A5CC /* Hackaton */,
+				530578FF22E7F6BF00C8A5CC /* Procket */,
 			);
 		};
 /* End PBXProject section */
@@ -361,7 +361,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		530578FB22E7F6BF00C8A5CC /* Build configuration list for PBXProject "Hackaton" */ = {
+		530578FB22E7F6BF00C8A5CC /* Build configuration list for PBXProject "Procket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5305791322E7F6C000C8A5CC /* Debug */,
@@ -370,7 +370,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5305791522E7F6C000C8A5CC /* Build configuration list for PBXNativeTarget "Hackaton" */ = {
+		5305791522E7F6C000C8A5CC /* Build configuration list for PBXNativeTarget "Procket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5305791622E7F6C000C8A5CC /* Debug */,

@@ -8,5 +8,6 @@ target 'Procket' do
   # Pods for Procket
     	pod 'PieCharts'
 	pod 'YYCalendar'
+        pod 'Alamofire', '~> 5.0.0-beta.5'
 
 end

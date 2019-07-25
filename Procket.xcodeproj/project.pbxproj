@@ -14,6 +14,8 @@
 		5305790E22E7F6C000C8A5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5305790D22E7F6C000C8A5CC /* Assets.xcassets */; };
 		5305791122E7F6C000C8A5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5305790F22E7F6C000C8A5CC /* LaunchScreen.storyboard */; };
 		5305791922E842B000C8A5CC /* CMExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5305791822E842B000C8A5CC /* CMExtension.swift */; };
+		B03244DE22E92BCC00427B8F /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03244DD22E92BCC00427B8F /* TransactionViewController.swift */; };
+		B03244E122E992D200427B8F /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03244E022E992D200427B8F /* TransactionTableViewCell.swift */; };
 		B0F7CFBD22E8CEDB001F9108 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7CFBC22E8CEDB001F9108 /* Dashboard.storyboard */; };
 		B0F7CFBF22E8CEEB001F9108 /* Transaction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7CFBE22E8CEEB001F9108 /* Transaction.storyboard */; };
 		B0F7CFC122E8CF03001F9108 /* AddTransaction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7CFC022E8CF03001F9108 /* AddTransaction.storyboard */; };
@@ -31,6 +33,8 @@
 		5305791022E7F6C000C8A5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5305791222E7F6C000C8A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5305791822E842B000C8A5CC /* CMExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMExtension.swift; sourceTree = "<group>"; };
+		B03244DD22E92BCC00427B8F /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		B03244E022E992D200427B8F /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
 		B0F7CFBC22E8CEDB001F9108 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		B0F7CFBE22E8CEEB001F9108 /* Transaction.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transaction.storyboard; sourceTree = "<group>"; };
 		B0F7CFC022E8CF03001F9108 /* AddTransaction.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddTransaction.storyboard; sourceTree = "<group>"; };
@@ -68,6 +72,7 @@
 		5305790222E7F6BF00C8A5CC /* Hackaton */ = {
 			isa = PBXGroup;
 			children = (
+				B03244DF22E991FC00427B8F /* ElementMap */,
 				B0F7CFC222E8CF1A001F9108 /* ViewControllers */,
 				B0F7CFB922E8CEA9001F9108 /* Storyboards */,
 				5305790322E7F6BF00C8A5CC /* AppDelegate.swift */,
@@ -80,6 +85,14 @@
 				5305791822E842B000C8A5CC /* CMExtension.swift */,
 			);
 			path = Hackaton;
+			sourceTree = "<group>";
+		};
+		B03244DF22E991FC00427B8F /* ElementMap */ = {
+			isa = PBXGroup;
+			children = (
+				B03244E022E992D200427B8F /* TransactionTableViewCell.swift */,
+			);
+			path = ElementMap;
 			sourceTree = "<group>";
 		};
 		B0F7CFB922E8CEA9001F9108 /* Storyboards */ = {
@@ -97,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				B0F7CFC322E8CF5A001F9108 /* DashboardViewController.swift */,
+				B03244DD22E92BCC00427B8F /* TransactionViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -177,6 +191,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5305790622E7F6BF00C8A5CC /* ViewController.swift in Sources */,
+				B03244E122E992D200427B8F /* TransactionTableViewCell.swift in Sources */,
+				B03244DE22E92BCC00427B8F /* TransactionViewController.swift in Sources */,
 				5305791922E842B000C8A5CC /* CMExtension.swift in Sources */,
 				B0F7CFC422E8CF5A001F9108 /* DashboardViewController.swift in Sources */,
 				5305790422E7F6BF00C8A5CC /* AppDelegate.swift in Sources */,

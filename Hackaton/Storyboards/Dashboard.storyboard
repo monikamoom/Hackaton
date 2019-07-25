@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Dashboard View Controller-->
+        <!--Procket-->
         <scene sceneID="R9K-ES-UZ8">
             <objects>
                 <viewController id="g6v-eZ-Ufo" customClass="DashboardViewController" customModule="Procket" customModuleProvider="target" sceneMemberID="viewController">
@@ -197,7 +197,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Uf0-6l-mnq"/>
                     </view>
-                    <navigationItem key="navigationItem" id="k21-Gh-UgC">
+                    <navigationItem key="navigationItem" title="Procket" id="k21-Gh-UgC">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="ikn-V8-I6K">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Uzv-Hb-5gS">
                                 <rect key="frame" x="327" y="6" width="32" height="32"/>

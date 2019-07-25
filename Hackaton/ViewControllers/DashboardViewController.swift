@@ -82,7 +82,7 @@ extension DashboardViewController{
         
     }
     func feedData(){
-        AF.request("https://looksorns.localtunnel.me/transaction/recent", method: .get).responseJSON{
+        AF.request("https://looksorns123.localtunnel.me/transaction/recent", method: .get).responseJSON{
             (response) in
             switch response.result{
             case .success(let value) :

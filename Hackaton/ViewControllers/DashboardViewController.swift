@@ -16,6 +16,13 @@ class DashboardViewController: UIViewController {
         showIncomeGraph()
         tranView.dropShadow()
         balanceView.dropShadow()
+
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        viewDidLoad()
         
     }
     

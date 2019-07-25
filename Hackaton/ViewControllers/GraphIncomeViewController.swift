@@ -20,13 +20,34 @@ class GraphIncomeViewController: UIViewController {
 
         
     }
+    override func viewWillDisappear(_ animated: Bool) {
+        chartView.clear()
+        self.chartView.removeFromSuperview()
+        
+    }
     override func viewDidAppear(_ animated: Bool) {
         
+
         chartView.layers = [createCustomViewsLayer(), createTextLayer()]
         //chartView.delegate = self
         chartView.models = createModels() // order is important - models have to be set at the end
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        viewDidLoad()
+    }
+//    override func viewWillDisappear(_ animated: Bool) {
+//        chartView.layers = []
+//    }
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        viewDidLoad()
+//
+//        chartView.layers = [createCustomViewsLayer(), createTextLayer()]
+////        chartView.delegate = self
+//        chartView.models = createModels() // order is important - models have to be set at the end
+//
+//    }
 
     fileprivate func createModels() -> [PieSliceModel] {
         let alpha: CGFloat = 0.5

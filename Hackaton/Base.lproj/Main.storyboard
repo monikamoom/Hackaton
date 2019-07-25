@@ -32,7 +32,7 @@
         <scene sceneID="N7M-Oz-pGw">
             <objects>
                 <viewControllerPlaceholder storyboardName="Dashboard" id="WYX-bb-TIZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Dashboard2" image="bar-chart" selectedImage="bar-chart" id="AaP-Zs-Czw"/>
+                    <tabBarItem key="tabBarItem" title="Dashboard" image="bar-chart" selectedImage="bar-chart" id="AaP-Zs-Czw"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nEd-gN-6fC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,7 +42,9 @@
         <scene sceneID="Aiw-Bt-Q5Q">
             <objects>
                 <viewControllerPlaceholder storyboardName="AddTransaction" id="QOH-u8-rtV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="ADD" id="2yD-lo-nuQ"/>
+                    <tabBarItem key="tabBarItem" title="" image="plus" id="2yD-lo-nuQ">
+                        <inset key="imageInsets" minX="0.0" minY="-25" maxX="0.0" maxY="0.0"/>
+                    </tabBarItem>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="28s-60-B5w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,6 +63,7 @@
     </scenes>
     <resources>
         <image name="bar-chart" width="32" height="32"/>
+        <image name="plus" width="64" height="64"/>
         <image name="transaction" width="32" height="32"/>
     </resources>
 </document>

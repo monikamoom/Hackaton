@@ -35,11 +35,13 @@
             </objects>
             <point key="canvasLocation" x="1847.826086956522" y="-449.33035714285711"/>
         </scene>
-        <!--ADD-->
+        <!--Navigation Controller-->
         <scene sceneID="ZhR-fa-N1a">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HDp-Bc-eNn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="ADD" id="HmZ-PN-cK7"/>
+                    <tabBarItem key="tabBarItem" title="" image="plus" id="HmZ-PN-cK7">
+                        <inset key="imageInsets" minX="0.0" minY="-25" maxX="0.0" maxY="0.0"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1Pt-4a-8DF">
@@ -56,4 +58,7 @@
             <point key="canvasLocation" x="937.68115942028987" y="-449.33035714285711"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="plus" width="64" height="64"/>
+    </resources>
 </document>

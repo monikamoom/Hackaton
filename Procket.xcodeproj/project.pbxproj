@@ -14,6 +14,7 @@
 		5305790E22E7F6C000C8A5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5305790D22E7F6C000C8A5CC /* Assets.xcassets */; };
 		5305791122E7F6C000C8A5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5305790F22E7F6C000C8A5CC /* LaunchScreen.storyboard */; };
 		5305791922E842B000C8A5CC /* CMExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5305791822E842B000C8A5CC /* CMExtension.swift */; };
+		534D06BC22EA1ECA00E67D2C /* transResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D06BB22EA1ECA00E67D2C /* transResponse.swift */; };
 		53CBA8FF22E9963C00461CD7 /* GraphIncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */; };
 		53CBA90322E9B7C000461CD7 /* GraphExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBA90222E9B7C000461CD7 /* GraphExpenseViewController.swift */; };
 		633227BAC814984805A6C7E1 /* Pods_Procket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B947957AA1A22F0B7C01872D /* Pods_Procket.framework */; };
@@ -25,6 +26,7 @@
 		B0F7CFC422E8CF5A001F9108 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7CFC322E8CF5A001F9108 /* DashboardViewController.swift */; };
 		B0F7CFC622E8D492001F9108 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7CFC522E8D492001F9108 /* Profile.storyboard */; };
 		FD17F87522E9936B003E10E5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17F87422E9936B003E10E5 /* ProfileViewController.swift */; };
+		FD17F87922E9FEBE003E10E5 /* DetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD17F87822E9FEBE003E10E5 /* DetailStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,7 @@
 		5305791022E7F6C000C8A5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5305791222E7F6C000C8A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5305791822E842B000C8A5CC /* CMExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMExtension.swift; sourceTree = "<group>"; };
+		534D06BB22EA1ECA00E67D2C /* transResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transResponse.swift; sourceTree = "<group>"; };
 		53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphIncomeViewController.swift; sourceTree = "<group>"; };
 		53CBA90222E9B7C000461CD7 /* GraphExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphExpenseViewController.swift; sourceTree = "<group>"; };
 		594433F77DFDACCE07D495E5 /* Pods-Procket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Procket.debug.xcconfig"; path = "Target Support Files/Pods-Procket/Pods-Procket.debug.xcconfig"; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 		B0F7CFC522E8D492001F9108 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		B947957AA1A22F0B7C01872D /* Pods_Procket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Procket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD17F87422E9936B003E10E5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FD17F87822E9FEBE003E10E5 /* DetailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 		5305790222E7F6BF00C8A5CC /* Hackaton */ = {
 			isa = PBXGroup;
 			children = (
+				534D06BA22EA1E9600E67D2C /* Models */,
 				B03244DF22E991FC00427B8F /* ElementMap */,
 				B0F7CFC222E8CF1A001F9108 /* ViewControllers */,
 				B0F7CFB922E8CEA9001F9108 /* Storyboards */,
@@ -98,6 +103,14 @@
 				5305791822E842B000C8A5CC /* CMExtension.swift */,
 			);
 			path = Hackaton;
+			sourceTree = "<group>";
+		};
+		534D06BA22EA1E9600E67D2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				534D06BB22EA1ECA00E67D2C /* transResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		B03244DF22E991FC00427B8F /* ElementMap */ = {
@@ -115,6 +128,7 @@
 				B0F7CFBE22E8CEEB001F9108 /* Transaction.storyboard */,
 				B0F7CFC022E8CF03001F9108 /* AddTransaction.storyboard */,
 				B0F7CFC522E8D492001F9108 /* Profile.storyboard */,
+				FD17F87822E9FEBE003E10E5 /* DetailStoryboard.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -214,6 +228,7 @@
 				B0F7CFC122E8CF03001F9108 /* AddTransaction.storyboard in Resources */,
 				5305790922E7F6BF00C8A5CC /* Main.storyboard in Resources */,
 				B0F7CFC622E8D492001F9108 /* Profile.storyboard in Resources */,
+				FD17F87922E9FEBE003E10E5 /* DetailStoryboard.storyboard in Resources */,
 				B0F7CFBD22E8CEDB001F9108 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +291,7 @@
 				5305791922E842B000C8A5CC /* CMExtension.swift in Sources */,
 				B0F7CFC422E8CF5A001F9108 /* DashboardViewController.swift in Sources */,
 				5305790422E7F6BF00C8A5CC /* AppDelegate.swift in Sources */,
+				534D06BC22EA1ECA00E67D2C /* transResponse.swift in Sources */,
 				5305790C22E7F6BF00C8A5CC /* Hackaton.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

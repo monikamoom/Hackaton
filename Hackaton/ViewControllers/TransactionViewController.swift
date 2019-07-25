@@ -1,6 +1,7 @@
 
 import UIKit
 import YYCalendar
+import Alamofire
 
 class TransactionViewController: UIViewController {
 
@@ -11,13 +12,19 @@ class TransactionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.mDateLabel.text = getDate()
+        feedData()
+        
 
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.mDateLabel.text = getDate()
     }
 
     
     @IBAction func selectDate(_ sender: Any) {
         
-        let calendar = YYCalendar(langType: .ENG, date: getDate(), format: "dd/MM/yyyy", disableAfterToday: false) { date in
+        let calendar = YYCalendar(langType: .ENG, date: getDate(), format: "dd/MM/yyyy", disableAfterToday: true) { date in
             self.mDateLabel.text = date
         }
         
@@ -59,4 +66,22 @@ extension TransactionViewController{
         print(formattedDate)
         return formattedDate
     }
+    
+    func feedData(){
+        AF.request("https://looksorns.localtunnel.me/transaction/", method: .get).responseJSON{
+            (response) in
+            switch response.result{
+            case .success(let value) :
+                print(value)
+                do{
+                    let result = try JSONDecoder().decode(TransResponse.self, from: response.data!)
+                }catch {
+                    
+                }
+            case .failure(let error) :
+                print(error)
+            }
+        }
+    }
+    
 }

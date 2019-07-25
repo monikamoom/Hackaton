@@ -12,7 +12,7 @@ import PieCharts
 class GraphIncomeViewController: UIViewController {
     
     @IBOutlet weak var graphView: UIView!
-    let chartView: PieChart = PieChart(frame: CGRect(x: 0, y: 50, width: 310, height: 307 ))
+    let chartView: PieChart = PieChart(frame: CGRect(x: 0, y: 50, width: 343, height: 307 ))
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,9 +53,9 @@ class GraphIncomeViewController: UIViewController {
         let alpha: CGFloat = 0.5
         
         return [
-            PieSliceModel(value: 2.1, color: #colorLiteral(red: 0.6901960784, green: 0.5019607843, blue: 0.9137254902, alpha: 1)),
-            PieSliceModel(value: 3, color: #colorLiteral(red: 0.9843137255, green: 0.7921568627, blue: 0.9215686275, alpha: 1)),
-            PieSliceModel(value: 1, color: #colorLiteral(red: 0.5921568627, green: 0.6980392157, blue: 0.5176470588, alpha: 1))
+            PieSliceModel(value: 2.1, color: #colorLiteral(red: 1, green: 0.8941176471, blue: 0.5647058824, alpha: 1)),
+            PieSliceModel(value: 3, color: #colorLiteral(red: 0.5294117647, green: 1, blue: 0.7176470588, alpha: 1)),
+            PieSliceModel(value: 1, color: #colorLiteral(red: 0.5333333333, green: 0.8588235294, blue: 0.9764705882, alpha: 1))
         ]
     }
     fileprivate func createCustomViewsLayer() -> PieCustomViewsLayer {
@@ -76,6 +76,8 @@ class GraphIncomeViewController: UIViewController {
         textLayerSettings.viewRadius = 65
         textLayerSettings.hideOnOverflow = true
         textLayerSettings.label.font = UIFont.systemFont(ofSize: 12)
+         textLayerSettings.label.font = UIFont.boldSystemFont(ofSize: 12.0)
+
         
         let formatter = NumberFormatter()
         formatter.maximumFractionDigits = 1

@@ -6,6 +6,7 @@ target 'Procket' do
   use_frameworks!
 
   # Pods for Procket
-    pod 'PieCharts'
+    	pod 'PieCharts'
+	pod 'YYCalendar'
 
 end

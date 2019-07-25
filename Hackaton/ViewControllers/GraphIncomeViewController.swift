@@ -8,6 +8,8 @@
 
 import UIKit
 import PieCharts
+import Alamofire
+
 
 class GraphIncomeViewController: UIViewController {
     

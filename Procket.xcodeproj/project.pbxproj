@@ -25,6 +25,7 @@
 		B0F7CFC422E8CF5A001F9108 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7CFC322E8CF5A001F9108 /* DashboardViewController.swift */; };
 		B0F7CFC622E8D492001F9108 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7CFC522E8D492001F9108 /* Profile.storyboard */; };
 		FD17F87522E9936B003E10E5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17F87422E9936B003E10E5 /* ProfileViewController.swift */; };
+		FD17F87922E9FEBE003E10E5 /* DetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD17F87822E9FEBE003E10E5 /* DetailStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		B0F7CFC522E8D492001F9108 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		B947957AA1A22F0B7C01872D /* Pods_Procket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Procket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD17F87422E9936B003E10E5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FD17F87822E9FEBE003E10E5 /* DetailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				B0F7CFBE22E8CEEB001F9108 /* Transaction.storyboard */,
 				B0F7CFC022E8CF03001F9108 /* AddTransaction.storyboard */,
 				B0F7CFC522E8D492001F9108 /* Profile.storyboard */,
+				FD17F87822E9FEBE003E10E5 /* DetailStoryboard.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -124,9 +127,9 @@
 			children = (
 				B0F7CFC322E8CF5A001F9108 /* DashboardViewController.swift */,
 				53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */,
+				53CBA90222E9B7C000461CD7 /* GraphExpenseViewController.swift */,
 				FD17F87422E9936B003E10E5 /* ProfileViewController.swift */,
 				B03244DD22E92BCC00427B8F /* TransactionViewController.swift */,
-				53CBA90222E9B7C000461CD7 /* GraphExpenseViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				B0F7CFC122E8CF03001F9108 /* AddTransaction.storyboard in Resources */,
 				5305790922E7F6BF00C8A5CC /* Main.storyboard in Resources */,
 				B0F7CFC622E8D492001F9108 /* Profile.storyboard in Resources */,
+				FD17F87922E9FEBE003E10E5 /* DetailStoryboard.storyboard in Resources */,
 				B0F7CFBD22E8CEDB001F9108 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,14 +428,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W9M3C49T97;
+				DEVELOPMENT_TEAM = 534P5SSQ99;
 				INFOPLIST_FILE = Hackaton/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codemobiles.Hackatonmonika;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codemobiles.Hackatonmonika.patt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -444,14 +448,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W9M3C49T97;
+				DEVELOPMENT_TEAM = 534P5SSQ99;
 				INFOPLIST_FILE = Hackaton/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codemobiles.Hackatonmonika;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codemobiles.Hackatonmonika.patt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

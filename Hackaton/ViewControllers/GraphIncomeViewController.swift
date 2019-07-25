@@ -53,20 +53,16 @@ class GraphIncomeViewController: UIViewController {
         let alpha: CGFloat = 0.5
         
         return [
-            PieSliceModel(value: 2.1, color: UIColor.yellow.withAlphaComponent(alpha)),
+            PieSliceModel(value: 2.1, color: #colorLiteral(red: 0.704015255, green: 0.5392900109, blue: 1, alpha: 1).withAlphaComponent(alpha)),
             PieSliceModel(value: 3, color: UIColor.blue.withAlphaComponent(alpha)),
-            PieSliceModel(value: 1, color: UIColor.green.withAlphaComponent(alpha)),
-            PieSliceModel(value: 4, color: UIColor.cyan.withAlphaComponent(alpha)),
-            PieSliceModel(value: 2, color: UIColor.red.withAlphaComponent(alpha)),
-            PieSliceModel(value: 1.5, color: UIColor.magenta.withAlphaComponent(alpha)),
-            PieSliceModel(value: 0.5, color: UIColor.orange.withAlphaComponent(alpha))
+            PieSliceModel(value: 1, color: UIColor.green.withAlphaComponent(alpha))
         ]
     }
     fileprivate func createCustomViewsLayer() -> PieCustomViewsLayer {
         let viewLayer = PieCustomViewsLayer()
         
         let settings = PieCustomViewsLayerSettings()
-        settings.viewRadius = 135
+        settings.viewRadius = 100
         settings.hideOnOverflow = false
         viewLayer.settings = settings
         
@@ -77,7 +73,7 @@ class GraphIncomeViewController: UIViewController {
     
     fileprivate func createTextLayer() -> PiePlainTextLayer {
         let textLayerSettings = PiePlainTextLayerSettings()
-        textLayerSettings.viewRadius = 75
+        textLayerSettings.viewRadius = 65
         textLayerSettings.hideOnOverflow = true
         textLayerSettings.label.font = UIFont.systemFont(ofSize: 12)
         
@@ -96,50 +92,19 @@ class GraphIncomeViewController: UIViewController {
         return {slice, center in
             
             let container = UIView()
-            container.frame.size = CGSize(width: 100, height: 40)
+            container.frame.size = CGSize(width: 30, height: 30)
             container.center = center
             let view = UIImageView()
-            view.frame = CGRect(x: 40, y: 10, width: 20, height: 20)
+            view.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
             container.addSubview(view)
             
-            if slice.data.id == 3 || slice.data.id == 0 {
-                let specialTextLabel = UILabel()
-                specialTextLabel.textAlignment = .center
-                //                if slice.data.id == 0 {
-                //                   // specialTextLabel.text = "views"
-                //                    specialTextLabel.font = UIFont.boldSystemFont(ofSize: 18)
-                //                } else if slice.data.id == 3 {
-                //                    specialTextLabel.textColor = UIColor.blue
-                //                 //   specialTextLabel.text = "Custom"
-                //                }
-                specialTextLabel.sizeToFit()
-                specialTextLabel.frame = CGRect(x: 0, y: 40, width: 100, height: 20)
-                container.addSubview(specialTextLabel)
-                container.frame.size = CGSize(width: 100, height: 60)
-                
-            }
             
             
-            // src of images: www.freepik.com, http://www.flaticon.com/authors/madebyoliver
             let imageName: String? = {
-//                switch slice.data.id {
-//                case 0: return "fish"
-//                case 1: return "grapes"
-//                case 2: return "doughnut"
-//                case 3: return "water"
-//                case 4: return "chicken"
-//                case 5: return "beet"
-//                case 6: return "cheese"
-//                default: return nil
-//                }
                 switch slice.data.id {
-                case 0: return "fish"
-                case 1: return "fish"
-                case 2: return "fish"
-                case 3: return "fish"
-                case 4: return "fish"
-                case 5: return "fish"
-                case 6: return "fish"
+                case 0: return "salaryIcon"
+                case 1: return "giftIcon"
+                case 2: return "otherInIcon"
                 default: return nil
                 }
             }()

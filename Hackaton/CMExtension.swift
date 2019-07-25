@@ -27,6 +27,14 @@ extension UIView{
         self.layer.shadowRadius = 5
         self.layer.shadowPath = UIBezierPath(rect: self.bounds).cgPath
     }
+    func dropShadow2() {
+        self.layer.masksToBounds = false
+        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.shadowOpacity = 0.2
+        self.layer.shadowOffset = CGSize(width: -0.05, height: 0.05)
+        self.layer.shadowRadius = 5
+        self.layer.shadowPath = UIBezierPath(rect: self.bounds).cgPath
+    }
     
     @IBInspectable var cornerRadius: CGFloat {
         get {

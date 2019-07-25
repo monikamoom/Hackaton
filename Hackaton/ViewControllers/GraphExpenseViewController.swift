@@ -53,12 +53,13 @@ class GraphExpenseViewController: UIViewController {
         let alpha: CGFloat = 0.5
         
         return [
-            PieSliceModel(value: 20, color: UIColor.yellow.withAlphaComponent(alpha)),
-            PieSliceModel(value: 30, color: UIColor.blue.withAlphaComponent(alpha)),
-            PieSliceModel(value: 1, color: UIColor.green.withAlphaComponent(alpha)),
-            PieSliceModel(value: 20, color: UIColor.cyan.withAlphaComponent(alpha)),
-            PieSliceModel(value: 20, color: UIColor.red.withAlphaComponent(alpha)),
-            PieSliceModel(value: 1.5, color: UIColor.magenta.withAlphaComponent(alpha))
+            PieSliceModel(value: 20, color: #colorLiteral(red: 1, green: 0.8941176471, blue: 0.5647058824, alpha: 1)),
+            PieSliceModel(value: 30, color: #colorLiteral(red: 1, green: 0.3647058824, blue: 0.3647058824, alpha: 1)),
+            PieSliceModel(value: 1, color: #colorLiteral(red: 0.9921568627, green: 0.7137254902, blue: 0.5254901961, alpha: 1)),
+            PieSliceModel(value: 20, color: #colorLiteral(red: 0.5333333333, green: 0.8588235294, blue: 0.9764705882, alpha: 1)),
+            PieSliceModel(value: 20, color: #colorLiteral(red: 0.9725490196, green: 0.5568627451, blue: 0.7529411765, alpha: 1)),
+            PieSliceModel(value: 20, color: #colorLiteral(red: 0.5294117647, green: 1, blue: 0.7176470588, alpha: 1)),
+            PieSliceModel(value: 1.5, color: #colorLiteral(red: 0.4078431373, green: 0.4823529412, blue: 0.8705882353, alpha: 1))
 //            PieSliceModel(value: 0.5, color: UIColor.orange.withAlphaComponent(alpha))
         ]
     }
@@ -109,7 +110,8 @@ class GraphExpenseViewController: UIViewController {
                 case 2: return "entIcon"
                 case 3: return "tranIcon"
                 case 4: return "mediIcon"
-                case 5: return "otherExIcon"
+                case 5: return "billIcon"
+                case 6: return "otherExIcon"
                 default: return nil
                 }
             }()

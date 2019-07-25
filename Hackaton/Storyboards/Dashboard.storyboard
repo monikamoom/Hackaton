@@ -245,7 +245,7 @@
         <scene sceneID="sPH-e4-TI5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1Qq-Gd-BVy" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Dashboard" id="dzF-Q6-etK"/>
+                    <tabBarItem key="tabBarItem" title="Dashboard" image="bar-chart" selectedImage="bar-chart" id="dzF-Q6-etK"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9c1-LW-5o6">
@@ -328,6 +328,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bar-chart" width="32" height="32"/>
         <image name="food" width="64" height="64"/>
         <image name="minusBaht" width="64" height="64"/>
         <image name="plusBaht" width="64" height="64"/>

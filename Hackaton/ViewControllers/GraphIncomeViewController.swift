@@ -53,9 +53,9 @@ class GraphIncomeViewController: UIViewController {
         let alpha: CGFloat = 0.5
         
         return [
-            PieSliceModel(value: 2.1, color: #colorLiteral(red: 0.704015255, green: 0.5392900109, blue: 1, alpha: 1).withAlphaComponent(alpha)),
-            PieSliceModel(value: 3, color: UIColor.blue.withAlphaComponent(alpha)),
-            PieSliceModel(value: 1, color: UIColor.green.withAlphaComponent(alpha))
+            PieSliceModel(value: 2.1, color: #colorLiteral(red: 0.6901960784, green: 0.5019607843, blue: 0.9137254902, alpha: 1)),
+            PieSliceModel(value: 3, color: #colorLiteral(red: 0.9843137255, green: 0.7921568627, blue: 0.9215686275, alpha: 1)),
+            PieSliceModel(value: 1, color: #colorLiteral(red: 0.5921568627, green: 0.6980392157, blue: 0.5176470588, alpha: 1))
         ]
     }
     fileprivate func createCustomViewsLayer() -> PieCustomViewsLayer {

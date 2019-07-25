@@ -11,7 +11,7 @@ import PieCharts
 
 class GraphExpenseViewController: UIViewController {
     @IBOutlet weak var graphView: UIView!
-    let chartView: PieChart = PieChart(frame: CGRect(x: 0, y: 50, width: 310, height: 307 ))
+    let chartView: PieChart = PieChart(frame: CGRect(x: 0, y: 50, width: 343, height: 307 ))
     
 
     override func viewDidLoad() {
@@ -81,6 +81,7 @@ class GraphExpenseViewController: UIViewController {
         textLayerSettings.viewRadius = 65
         textLayerSettings.hideOnOverflow = true
         textLayerSettings.label.font = UIFont.systemFont(ofSize: 12)
+        textLayerSettings.label.font = UIFont.boldSystemFont(ofSize: 12.0)
         
         let formatter = NumberFormatter()
         formatter.maximumFractionDigits = 1

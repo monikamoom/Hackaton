@@ -14,10 +14,20 @@
 		5305790E22E7F6C000C8A5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5305790D22E7F6C000C8A5CC /* Assets.xcassets */; };
 		5305791122E7F6C000C8A5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5305790F22E7F6C000C8A5CC /* LaunchScreen.storyboard */; };
 		5305791922E842B000C8A5CC /* CMExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5305791822E842B000C8A5CC /* CMExtension.swift */; };
+		53CBA8FF22E9963C00461CD7 /* GraphIncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */; };
+		633227BAC814984805A6C7E1 /* Pods_Procket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B947957AA1A22F0B7C01872D /* Pods_Procket.framework */; };
+		B03244DE22E92BCC00427B8F /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03244DD22E92BCC00427B8F /* TransactionViewController.swift */; };
+		B03244E122E992D200427B8F /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03244E022E992D200427B8F /* TransactionTableViewCell.swift */; };
+		B0F7CFBD22E8CEDB001F9108 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7CFBC22E8CEDB001F9108 /* Dashboard.storyboard */; };
+		B0F7CFBF22E8CEEB001F9108 /* Transaction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7CFBE22E8CEEB001F9108 /* Transaction.storyboard */; };
+		B0F7CFC122E8CF03001F9108 /* AddTransaction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7CFC022E8CF03001F9108 /* AddTransaction.storyboard */; };
+		B0F7CFC422E8CF5A001F9108 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7CFC322E8CF5A001F9108 /* DashboardViewController.swift */; };
+		B0F7CFC622E8D492001F9108 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7CFC522E8D492001F9108 /* Profile.storyboard */; };
+		FD17F87522E9936B003E10E5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17F87422E9936B003E10E5 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5305790022E7F6BF00C8A5CC /* Hackaton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackaton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5305790022E7F6BF00C8A5CC /* Procket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Procket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5305790322E7F6BF00C8A5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5305790522E7F6BF00C8A5CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5305790822E7F6BF00C8A5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +36,18 @@
 		5305791022E7F6C000C8A5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5305791222E7F6C000C8A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5305791822E842B000C8A5CC /* CMExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMExtension.swift; sourceTree = "<group>"; };
+		53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphIncomeViewController.swift; sourceTree = "<group>"; };
+		594433F77DFDACCE07D495E5 /* Pods-Procket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Procket.debug.xcconfig"; path = "Target Support Files/Pods-Procket/Pods-Procket.debug.xcconfig"; sourceTree = "<group>"; };
+		927EB78B7EB507915987AB51 /* Pods-Procket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Procket.release.xcconfig"; path = "Target Support Files/Pods-Procket/Pods-Procket.release.xcconfig"; sourceTree = "<group>"; };
+		B03244DD22E92BCC00427B8F /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		B03244E022E992D200427B8F /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		B0F7CFBC22E8CEDB001F9108 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		B0F7CFBE22E8CEEB001F9108 /* Transaction.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transaction.storyboard; sourceTree = "<group>"; };
+		B0F7CFC022E8CF03001F9108 /* AddTransaction.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddTransaction.storyboard; sourceTree = "<group>"; };
+		B0F7CFC322E8CF5A001F9108 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		B0F7CFC522E8D492001F9108 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		B947957AA1A22F0B7C01872D /* Pods_Procket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Procket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD17F87422E9936B003E10E5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633227BAC814984805A6C7E1 /* Pods_Procket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,13 +67,15 @@
 			children = (
 				5305790222E7F6BF00C8A5CC /* Hackaton */,
 				5305790122E7F6BF00C8A5CC /* Products */,
+				F347670211E268B7082553CF /* Pods */,
+				E63C5D5949DF699AB08E4BE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5305790122E7F6BF00C8A5CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5305790022E7F6BF00C8A5CC /* Hackaton.app */,
+				5305790022E7F6BF00C8A5CC /* Procket.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +83,9 @@
 		5305790222E7F6BF00C8A5CC /* Hackaton */ = {
 			isa = PBXGroup;
 			children = (
+				B03244DF22E991FC00427B8F /* ElementMap */,
+				B0F7CFC222E8CF1A001F9108 /* ViewControllers */,
+				B0F7CFB922E8CEA9001F9108 /* Storyboards */,
 				5305790322E7F6BF00C8A5CC /* AppDelegate.swift */,
 				5305790522E7F6BF00C8A5CC /* ViewController.swift */,
 				5305790722E7F6BF00C8A5CC /* Main.storyboard */,
@@ -70,24 +98,74 @@
 			path = Hackaton;
 			sourceTree = "<group>";
 		};
+		B03244DF22E991FC00427B8F /* ElementMap */ = {
+			isa = PBXGroup;
+			children = (
+				B03244E022E992D200427B8F /* TransactionTableViewCell.swift */,
+			);
+			path = ElementMap;
+			sourceTree = "<group>";
+		};
+		B0F7CFB922E8CEA9001F9108 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B0F7CFBC22E8CEDB001F9108 /* Dashboard.storyboard */,
+				B0F7CFBE22E8CEEB001F9108 /* Transaction.storyboard */,
+				B0F7CFC022E8CF03001F9108 /* AddTransaction.storyboard */,
+				B0F7CFC522E8D492001F9108 /* Profile.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B0F7CFC222E8CF1A001F9108 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0F7CFC322E8CF5A001F9108 /* DashboardViewController.swift */,
+				53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */,
+				FD17F87422E9936B003E10E5 /* ProfileViewController.swift */,
+				B03244DD22E92BCC00427B8F /* TransactionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E63C5D5949DF699AB08E4BE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B947957AA1A22F0B7C01872D /* Pods_Procket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F347670211E268B7082553CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				594433F77DFDACCE07D495E5 /* Pods-Procket.debug.xcconfig */,
+				927EB78B7EB507915987AB51 /* Pods-Procket.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		530578FF22E7F6BF00C8A5CC /* Hackaton */ = {
+		530578FF22E7F6BF00C8A5CC /* Procket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5305791522E7F6C000C8A5CC /* Build configuration list for PBXNativeTarget "Hackaton" */;
+			buildConfigurationList = 5305791522E7F6C000C8A5CC /* Build configuration list for PBXNativeTarget "Procket" */;
 			buildPhases = (
+				DD714451F07C3D0B001066FC /* [CP] Check Pods Manifest.lock */,
 				530578FC22E7F6BF00C8A5CC /* Sources */,
 				530578FD22E7F6BF00C8A5CC /* Frameworks */,
 				530578FE22E7F6BF00C8A5CC /* Resources */,
+				4391AA30CB3A44E863E6475E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Hackaton;
+			name = Procket;
 			productName = Hackaton;
-			productReference = 5305790022E7F6BF00C8A5CC /* Hackaton.app */;
+			productReference = 5305790022E7F6BF00C8A5CC /* Procket.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +183,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 530578FB22E7F6BF00C8A5CC /* Build configuration list for PBXProject "Hackaton" */;
+			buildConfigurationList = 530578FB22E7F6BF00C8A5CC /* Build configuration list for PBXProject "Procket" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +196,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				530578FF22E7F6BF00C8A5CC /* Hackaton */,
+				530578FF22E7F6BF00C8A5CC /* Procket */,
 			);
 		};
 /* End PBXProject section */
@@ -128,21 +206,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0F7CFBF22E8CEEB001F9108 /* Transaction.storyboard in Resources */,
 				5305791122E7F6C000C8A5CC /* LaunchScreen.storyboard in Resources */,
 				5305790E22E7F6C000C8A5CC /* Assets.xcassets in Resources */,
+				B0F7CFC122E8CF03001F9108 /* AddTransaction.storyboard in Resources */,
 				5305790922E7F6BF00C8A5CC /* Main.storyboard in Resources */,
+				B0F7CFC622E8D492001F9108 /* Profile.storyboard in Resources */,
+				B0F7CFBD22E8CEDB001F9108 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4391AA30CB3A44E863E6475E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Procket/Pods-Procket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Procket/Pods-Procket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Procket/Pods-Procket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD714451F07C3D0B001066FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Procket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		530578FC22E7F6BF00C8A5CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53CBA8FF22E9963C00461CD7 /* GraphIncomeViewController.swift in Sources */,
+				FD17F87522E9936B003E10E5 /* ProfileViewController.swift in Sources */,
 				5305790622E7F6BF00C8A5CC /* ViewController.swift in Sources */,
+				B03244E122E992D200427B8F /* TransactionTableViewCell.swift in Sources */,
+				B03244DE22E92BCC00427B8F /* TransactionViewController.swift in Sources */,
 				5305791922E842B000C8A5CC /* CMExtension.swift in Sources */,
+				B0F7CFC422E8CF5A001F9108 /* DashboardViewController.swift in Sources */,
 				5305790422E7F6BF00C8A5CC /* AppDelegate.swift in Sources */,
 				5305790C22E7F6BF00C8A5CC /* Hackaton.xcdatamodeld in Sources */,
 			);
@@ -288,42 +417,48 @@
 		};
 		5305791622E7F6C000C8A5CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 594433F77DFDACCE07D495E5 /* Pods-Procket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9M3C49T97;
 				INFOPLIST_FILE = Hackaton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codemobiles.Hackaton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codemobiles.Hackatonmonika;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5305791722E7F6C000C8A5CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927EB78B7EB507915987AB51 /* Pods-Procket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9M3C49T97;
 				INFOPLIST_FILE = Hackaton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codemobiles.Hackaton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codemobiles.Hackatonmonika;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		530578FB22E7F6BF00C8A5CC /* Build configuration list for PBXProject "Hackaton" */ = {
+		530578FB22E7F6BF00C8A5CC /* Build configuration list for PBXProject "Procket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5305791322E7F6C000C8A5CC /* Debug */,
@@ -332,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5305791522E7F6C000C8A5CC /* Build configuration list for PBXNativeTarget "Hackaton" */ = {
+		5305791522E7F6C000C8A5CC /* Build configuration list for PBXNativeTarget "Procket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5305791622E7F6C000C8A5CC /* Debug */,

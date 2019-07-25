@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		5305791122E7F6C000C8A5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5305790F22E7F6C000C8A5CC /* LaunchScreen.storyboard */; };
 		5305791922E842B000C8A5CC /* CMExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5305791822E842B000C8A5CC /* CMExtension.swift */; };
 		53CBA8FF22E9963C00461CD7 /* GraphIncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */; };
+		53CBA90322E9B7C000461CD7 /* GraphExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBA90222E9B7C000461CD7 /* GraphExpenseViewController.swift */; };
 		633227BAC814984805A6C7E1 /* Pods_Procket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B947957AA1A22F0B7C01872D /* Pods_Procket.framework */; };
 		B03244DE22E92BCC00427B8F /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03244DD22E92BCC00427B8F /* TransactionViewController.swift */; };
 		B03244E122E992D200427B8F /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03244E022E992D200427B8F /* TransactionTableViewCell.swift */; };
@@ -37,6 +38,7 @@
 		5305791222E7F6C000C8A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5305791822E842B000C8A5CC /* CMExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMExtension.swift; sourceTree = "<group>"; };
 		53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphIncomeViewController.swift; sourceTree = "<group>"; };
+		53CBA90222E9B7C000461CD7 /* GraphExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphExpenseViewController.swift; sourceTree = "<group>"; };
 		594433F77DFDACCE07D495E5 /* Pods-Procket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Procket.debug.xcconfig"; path = "Target Support Files/Pods-Procket/Pods-Procket.debug.xcconfig"; sourceTree = "<group>"; };
 		927EB78B7EB507915987AB51 /* Pods-Procket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Procket.release.xcconfig"; path = "Target Support Files/Pods-Procket/Pods-Procket.release.xcconfig"; sourceTree = "<group>"; };
 		B03244DD22E92BCC00427B8F /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */,
 				FD17F87422E9936B003E10E5 /* ProfileViewController.swift */,
 				B03244DD22E92BCC00427B8F /* TransactionViewController.swift */,
+				53CBA90222E9B7C000461CD7 /* GraphExpenseViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -142,7 +145,6 @@
 				594433F77DFDACCE07D495E5 /* Pods-Procket.debug.xcconfig */,
 				927EB78B7EB507915987AB51 /* Pods-Procket.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -269,6 +271,7 @@
 				FD17F87522E9936B003E10E5 /* ProfileViewController.swift in Sources */,
 				5305790622E7F6BF00C8A5CC /* ViewController.swift in Sources */,
 				B03244E122E992D200427B8F /* TransactionTableViewCell.swift in Sources */,
+				53CBA90322E9B7C000461CD7 /* GraphExpenseViewController.swift in Sources */,
 				B03244DE22E92BCC00427B8F /* TransactionViewController.swift in Sources */,
 				5305791922E842B000C8A5CC /* CMExtension.swift in Sources */,
 				B0F7CFC422E8CF5A001F9108 /* DashboardViewController.swift in Sources */,

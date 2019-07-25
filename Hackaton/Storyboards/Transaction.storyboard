@@ -165,7 +165,7 @@
         <scene sceneID="Kjm-el-Xb5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ckg-UK-aGa" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Transaction" id="luE-Ri-13b"/>
+                    <tabBarItem key="tabBarItem" title="Transaction" image="transaction" id="luE-Ri-13b"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rly-EY-NTf">
@@ -184,5 +184,6 @@
     </scenes>
     <resources>
         <image name="food" width="64" height="64"/>
+        <image name="transaction" width="32" height="32"/>
     </resources>
 </document>

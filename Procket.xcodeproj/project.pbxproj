@@ -127,9 +127,9 @@
 			children = (
 				B0F7CFC322E8CF5A001F9108 /* DashboardViewController.swift */,
 				53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */,
+				53CBA90222E9B7C000461CD7 /* GraphExpenseViewController.swift */,
 				FD17F87422E9936B003E10E5 /* ProfileViewController.swift */,
 				B03244DD22E92BCC00427B8F /* TransactionViewController.swift */,
-				53CBA90222E9B7C000461CD7 /* GraphExpenseViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";

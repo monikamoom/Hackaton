@@ -25,7 +25,8 @@
 		B0F7CFC422E8CF5A001F9108 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7CFC322E8CF5A001F9108 /* DashboardViewController.swift */; };
 		B0F7CFC622E8D492001F9108 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7CFC522E8D492001F9108 /* Profile.storyboard */; };
 		FD17F87522E9936B003E10E5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17F87422E9936B003E10E5 /* ProfileViewController.swift */; };
-		FD17F87922E9FEBE003E10E5 /* DetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD17F87822E9FEBE003E10E5 /* DetailStoryboard.storyboard */; };
+		FD17F87B22EA0BB4003E10E5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17F87A22EA0BB4003E10E5 /* DetailViewController.swift */; };
+		FDFC75F922EA369900A01384 /* SubDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC75F822EA369900A01384 /* SubDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +52,8 @@
 		B0F7CFC522E8D492001F9108 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		B947957AA1A22F0B7C01872D /* Pods_Procket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Procket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD17F87422E9936B003E10E5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		FD17F87822E9FEBE003E10E5 /* DetailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailStoryboard.storyboard; sourceTree = "<group>"; };
+		FD17F87A22EA0BB4003E10E5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FDFC75F822EA369900A01384 /* SubDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +119,6 @@
 				B0F7CFBE22E8CEEB001F9108 /* Transaction.storyboard */,
 				B0F7CFC022E8CF03001F9108 /* AddTransaction.storyboard */,
 				B0F7CFC522E8D492001F9108 /* Profile.storyboard */,
-				FD17F87822E9FEBE003E10E5 /* DetailStoryboard.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -128,8 +129,10 @@
 				B0F7CFC322E8CF5A001F9108 /* DashboardViewController.swift */,
 				53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */,
 				53CBA90222E9B7C000461CD7 /* GraphExpenseViewController.swift */,
-				FD17F87422E9936B003E10E5 /* ProfileViewController.swift */,
 				B03244DD22E92BCC00427B8F /* TransactionViewController.swift */,
+				FD17F87422E9936B003E10E5 /* ProfileViewController.swift */,
+				FD17F87A22EA0BB4003E10E5 /* DetailViewController.swift */,
+				FDFC75F822EA369900A01384 /* SubDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -217,7 +220,6 @@
 				B0F7CFC122E8CF03001F9108 /* AddTransaction.storyboard in Resources */,
 				5305790922E7F6BF00C8A5CC /* Main.storyboard in Resources */,
 				B0F7CFC622E8D492001F9108 /* Profile.storyboard in Resources */,
-				FD17F87922E9FEBE003E10E5 /* DetailStoryboard.storyboard in Resources */,
 				B0F7CFBD22E8CEDB001F9108 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD17F87B22EA0BB4003E10E5 /* DetailViewController.swift in Sources */,
 				53CBA8FF22E9963C00461CD7 /* GraphIncomeViewController.swift in Sources */,
 				FD17F87522E9936B003E10E5 /* ProfileViewController.swift in Sources */,
 				5305790622E7F6BF00C8A5CC /* ViewController.swift in Sources */,
@@ -278,6 +281,7 @@
 				53CBA90322E9B7C000461CD7 /* GraphExpenseViewController.swift in Sources */,
 				B03244DE22E92BCC00427B8F /* TransactionViewController.swift in Sources */,
 				5305791922E842B000C8A5CC /* CMExtension.swift in Sources */,
+				FDFC75F922EA369900A01384 /* SubDetailViewController.swift in Sources */,
 				B0F7CFC422E8CF5A001F9108 /* DashboardViewController.swift in Sources */,
 				5305790422E7F6BF00C8A5CC /* AppDelegate.swift in Sources */,
 				5305790C22E7F6BF00C8A5CC /* Hackaton.xcdatamodeld in Sources */,

@@ -59,14 +59,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="500.00 ฿" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JX-55-8rS">
-                                        <rect key="frame" x="109" y="4" width="127" height="35"/>
+                                        <rect key="frame" x="109" y="8" width="127" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
                                         <color key="textColor" red="0.22912537799999999" green="0.61310624439999994" blue="0.83922356369999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Balance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5V-dW-3Ss">
-                                        <rect key="frame" x="138" y="47" width="68" height="20"/>
+                                        <rect key="frame" x="138" y="46" width="68" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
@@ -85,18 +85,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Income" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUO-Xe-iyU">
-                                        <rect key="frame" x="100" y="31" width="44" height="14"/>
+                                        <rect key="frame" x="116" y="31" width="44" height="14"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plusBaht" translatesAutoresizingMaskIntoConstraints="NO" id="1WF-fm-tbi">
-                                        <rect key="frame" x="12" y="5" width="40" height="40"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thai-baht-plus-click" translatesAutoresizingMaskIntoConstraints="NO" id="1WF-fm-tbi">
+                                        <rect key="frame" x="8" y="5" width="40" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="200.00 ฿" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FuR-Sz-45v">
-                                        <rect key="frame" x="68" y="5" width="76" height="21"/>
+                                        <rect key="frame" x="84" y="5" width="76" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -113,7 +113,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.41960784313725491" green="0.7803921568627451" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.50935471057891846" green="0.77222174406051636" blue="0.41954219341278076" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="5"/>
@@ -125,7 +125,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Expense" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEW-c5-SrD">
-                                        <rect key="frame" x="94" y="28" width="50" height="14"/>
+                                        <rect key="frame" x="107" y="32" width="50" height="14"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -136,12 +136,12 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="minusBaht" translatesAutoresizingMaskIntoConstraints="NO" id="7Ac-Pr-s56">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thai-baht-minus-click" translatesAutoresizingMaskIntoConstraints="NO" id="7Ac-Pr-s56">
                                         <rect key="frame" x="8" y="6" width="40" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="200.00 ฿" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u95-6d-g3h">
-                                        <rect key="frame" x="68" y="8" width="76" height="21"/>
+                                        <rect key="frame" x="81" y="8" width="76" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -158,7 +158,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.91764705882352937" green="0.37254901960784315" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.85490196078431369" green="0.40784313725490196" blue="0.37254901960784315" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="5"/>
@@ -169,7 +169,7 @@
                                 <rect key="frame" x="18" y="534" width="339" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="GnJ-dH-tVF">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="foodIcon" translatesAutoresizingMaskIntoConstraints="NO" id="GnJ-dH-tVF">
                                         <rect key="frame" x="8" y="8" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -188,7 +188,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="200 ฿" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyK-J6-oHt">
-                                        <rect key="frame" x="220" y="17" width="82" height="35"/>
+                                        <rect key="frame" x="249" y="16" width="82" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
                                         <color key="textColor" red="0.91764705882352937" green="0.38431372549019605" blue="0.36470588235294116" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -223,7 +223,9 @@
                         <outlet property="V2" destination="tzB-f8-auy" id="aed-xn-r6o"/>
                         <outlet property="balanceView" destination="rlo-a2-8JB" id="ogD-HE-Drl"/>
                         <outlet property="expense" destination="KIP-Nc-loz" id="UmV-WD-sQa"/>
+                        <outlet property="expenseImageView" destination="7Ac-Pr-s56" id="fl3-z9-Cmc"/>
                         <outlet property="income" destination="kYN-16-jZn" id="bCj-gx-PL6"/>
+                        <outlet property="incomeImageView" destination="1WF-fm-tbi" id="KqE-Tv-k0B"/>
                         <outlet property="tranView" destination="TD4-IE-TRU" id="mwy-EM-AbW"/>
                     </connections>
                 </viewController>
@@ -329,9 +331,9 @@
     </scenes>
     <resources>
         <image name="bar-chart" width="32" height="32"/>
-        <image name="food" width="64" height="64"/>
-        <image name="minusBaht" width="64" height="64"/>
-        <image name="plusBaht" width="64" height="64"/>
+        <image name="foodIcon" width="53" height="52"/>
+        <image name="thai-baht-minus-click" width="128" height="128"/>
+        <image name="thai-baht-plus-click" width="128" height="128"/>
         <image name="user_icon" width="32" height="32"/>
     </resources>
 </document>

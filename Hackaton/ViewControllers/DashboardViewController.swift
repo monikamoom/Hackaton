@@ -197,5 +197,8 @@ extension DashboardViewController{
             }
         }
     }
+    @IBAction func closeDetail() {
+        self.tabBarController?.selectedIndex = 2
+    }
     
 }

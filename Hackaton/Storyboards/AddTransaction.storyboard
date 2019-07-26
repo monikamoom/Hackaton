@@ -140,7 +140,11 @@
                                 <action selector="closeDetail" destination="uWQ-FN-8aF" id="psR-Jk-jkw"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="gy7-aN-FlA"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="gy7-aN-FlA">
+                            <connections>
+                                <segue destination="Dzl-84-gRk" kind="show" id="ukJ-OI-YPC"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="mCardView" destination="dAb-Ce-Yqj" id="bGC-Bg-4j2"/>
@@ -310,7 +314,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TiR-8I-7Rm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2594" y="-1058"/>
+            <point key="canvasLocation" x="2577" y="179"/>
         </scene>
         <!--Edit Detail View Controller-->
         <scene sceneID="nPs-Mm-MF5">

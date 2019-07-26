@@ -21,12 +21,15 @@ class DashboardViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var income: UIView!
     @IBOutlet weak var expense: UIView!
+    var incomeValue: Int = 0
+    var expenseValue: Int = 0
+    var balanceValue: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         showExpenseGrap()
         tranView.dropShadow()
         balanceView.dropShadow()
-        feedData()
         setInExBalance()
 
         
@@ -38,18 +41,15 @@ class DashboardViewController: UIViewController {
 //
 //    }
     override func viewWillAppear(_ animated: Bool) {
+        feedData()
+        setInExBalance()
         
     }
     
     @IBAction func change(_ sender: UIButton) {
         changeGrpah(sender.titleLabel?.text)
     }
-
 }
-
-
-
-
 extension DashboardViewController{
     
     func showIncomeGraph(){
@@ -111,6 +111,7 @@ extension DashboardViewController{
     }
     
     func setCategory(category:String,type:String){
+        self.tagLabel.text = "Tag"
         switch type {
         case "expense":
             switch category {
@@ -163,31 +164,51 @@ extension DashboardViewController{
         
     }
     func setInExBalance(){
-        AF.request("https://looksorns123.localtunnel.me/balance", method: .get).responseJSON{
-            (response) in
-            switch response.result{
-            case .success(let value) :
-                //print(value)
-                do{
-                    let result = try JSONDecoder().decode(BalanceResponse.self, from: response.data!)
-                    self.balanceLabel.text = "\(result.balance) ฿"
-                    
-                }catch {
-                    
-                }
-            case .failure(let error) :
-                print(error)
-            }
-        }
+//        AF.request("https://looksorns123.localtunnel.me/balance", method: .get).responseJSON{
+//            (response) in
+//            switch response.result{
+//            case .success(let value) :
+//                //print(value)
+//                do{
+//                    let result = try JSONDecoder().decode(BalanceResponse.self, from: response.data!)
+//                    self.balanceLabel.text = "\(result.balance) ฿"
+//
+//                }catch {
+//
+//                }
+//            case .failure(let error) :
+//                print(error)
+//            }
+//        }
         AF.request("https://looksorns123.localtunnel.me/inex", method: .get).responseJSON{
             (response) in
             switch response.result{
             case .success(let value) :
                 //print(value)
+                
                 do{
+                    self.incomeValue = 0
+                    self.expenseValue = 0
+                    self.balanceValue = 0
+                    
                     let result = try JSONDecoder().decode(InexResponse.self, from: response.data!)
-                    self.incomeLabel.text = "\(result[0].sum) ฿"
-                    self.expenseLabel.text = "\(result[1].sum) ฿"
+                    for i in 0...1{
+                        switch result[i].id{
+                        case "income":
+                            self.incomeLabel.text = "\(result[i].sum) ฿"
+                            self.incomeValue = result[i].sum
+                            
+                        case "expense":
+                            self.expenseLabel.text = "\(result[i].sum) ฿"
+                            self.expenseValue = result[i].sum
+                        default:
+                            self.incomeLabel.text = "0 ฿"
+                            self.expenseLabel.text = "0 ฿"
+                        }
+                    }
+                    
+                    self.balanceValue = self.incomeValue-self.expenseValue
+                    self.balanceLabel.text = "\(self.balanceValue) ฿"
                     
                 }catch {
                     
@@ -196,6 +217,7 @@ extension DashboardViewController{
                 print(error)
             }
         }
+        
     }
     @IBAction func closeDetail() {
         self.tabBarController?.selectedIndex = 2

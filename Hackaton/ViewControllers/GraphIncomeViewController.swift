@@ -169,11 +169,11 @@ class GraphIncomeViewController: UIViewController {
                     let result = try JSONDecoder().decode(ExpenseResponse.self, from: response.data!)
                     //print("😊\(result.count)")
                     for i in 0...result.count-1{
-                        switch result[i].type{
+                        switch result[i].id.type{
                         case "income":
-                            self.cate.append(String(result[i].id))
+                            self.cate.append(String(result[i].id.category))
                             self.sum.append(Int(result[i].sum))
-                            self.type.append(String(result[i].type))
+                            self.type.append(String(result[i].id.type))
                         default:
                             break
                         }

@@ -18,6 +18,7 @@
 		534D06BE22EA4B2C00E67D2C /* expenseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D06BD22EA4B2C00E67D2C /* expenseResponse.swift */; };
 		534D06C022EA82B700E67D2C /* inexResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D06BF22EA82B700E67D2C /* inexResponse.swift */; };
 		534D06C222EA835700E67D2C /* balanceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D06C122EA835700E67D2C /* balanceResponse.swift */; };
+		534D06C422EAB23200E67D2C /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D06C322EAB23200E67D2C /* EditTableViewController.swift */; };
 		53CBA8FF22E9963C00461CD7 /* GraphIncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */; };
 		53CBA90322E9B7C000461CD7 /* GraphExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBA90222E9B7C000461CD7 /* GraphExpenseViewController.swift */; };
 		68230619F8C4A495F64118BD /* Pods_Procket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DC8C9BC64D74C59A807A7B /* Pods_Procket.framework */; };
@@ -48,6 +49,7 @@
 		534D06BD22EA4B2C00E67D2C /* expenseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expenseResponse.swift; sourceTree = "<group>"; };
 		534D06BF22EA82B700E67D2C /* inexResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inexResponse.swift; sourceTree = "<group>"; };
 		534D06C122EA835700E67D2C /* balanceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balanceResponse.swift; sourceTree = "<group>"; };
+		534D06C322EAB23200E67D2C /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
 		53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphIncomeViewController.swift; sourceTree = "<group>"; };
 		53CBA90222E9B7C000461CD7 /* GraphExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphExpenseViewController.swift; sourceTree = "<group>"; };
 		B03244DD22E92BCC00427B8F /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				FD17F87422E9936B003E10E5 /* ProfileViewController.swift */,
 				FD17F87A22EA0BB4003E10E5 /* DetailViewController.swift */,
 				FDFC75F822EA369900A01384 /* SubDetailViewController.swift */,
+				534D06C322EAB23200E67D2C /* EditTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				FD17F87B22EA0BB4003E10E5 /* DetailViewController.swift in Sources */,
 				53CBA8FF22E9963C00461CD7 /* GraphIncomeViewController.swift in Sources */,
 				FD17F87522E9936B003E10E5 /* ProfileViewController.swift in Sources */,
+				534D06C422EAB23200E67D2C /* EditTableViewController.swift in Sources */,
 				5305790622E7F6BF00C8A5CC /* ViewController.swift in Sources */,
 				B03244E122E992D200427B8F /* TransactionTableViewCell.swift in Sources */,
 				53CBA90322E9B7C000461CD7 /* GraphExpenseViewController.swift in Sources */,

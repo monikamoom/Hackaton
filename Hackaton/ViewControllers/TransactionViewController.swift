@@ -138,7 +138,7 @@ extension TransactionViewController{
     
     func feedData(Date:String){
         
-        AF.request("https://looksorns.localtunnel.me/transaction/date/\(Date)", method: .get).responseJSON{
+        AF.request("https://looksorns123.localtunnel.me/transaction/date/\(Date)", method: .get).responseJSON{
             (response) in
             switch response.result{
             case .success(let value) :

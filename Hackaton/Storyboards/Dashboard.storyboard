@@ -58,8 +58,8 @@
                                 <rect key="frame" x="16" y="76" width="344" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="500.00 ฿" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JX-55-8rS">
-                                        <rect key="frame" x="109" y="8" width="127" height="35"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="฿" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JX-55-8rS">
+                                        <rect key="frame" x="109" y="8" width="126" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
                                         <color key="textColor" red="0.22912537799999999" green="0.61310624439999994" blue="0.83922356369999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -95,8 +95,8 @@
                                         <rect key="frame" x="8" y="5" width="40" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="200.00 ฿" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FuR-Sz-45v">
-                                        <rect key="frame" x="84" y="5" width="76" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="฿" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FuR-Sz-45v">
+                                        <rect key="frame" x="56" y="5" width="104" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -140,8 +140,8 @@
                                         <rect key="frame" x="8" y="6" width="40" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="200.00 ฿" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u95-6d-g3h">
-                                        <rect key="frame" x="81" y="8" width="76" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="฿" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u95-6d-g3h">
+                                        <rect key="frame" x="56" y="8" width="101" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -221,13 +221,16 @@
                     <connections>
                         <outlet property="V1" destination="hf8-gP-42b" id="oQS-rB-LQ0"/>
                         <outlet property="V2" destination="tzB-f8-auy" id="aed-xn-r6o"/>
+                        <outlet property="balanceLabel" destination="2JX-55-8rS" id="VP6-SP-eUn"/>
                         <outlet property="balanceView" destination="rlo-a2-8JB" id="ogD-HE-Drl"/>
                         <outlet property="categoryImage" destination="GnJ-dH-tVF" id="zRa-Ej-e3Q"/>
                         <outlet property="categoryLabel" destination="258-Ef-IiA" id="wEH-nb-6IS"/>
                         <outlet property="expense" destination="KIP-Nc-loz" id="UmV-WD-sQa"/>
                         <outlet property="expenseImageView" destination="7Ac-Pr-s56" id="fl3-z9-Cmc"/>
+                        <outlet property="expenseLabel" destination="u95-6d-g3h" id="Tgz-2z-aIg"/>
                         <outlet property="income" destination="kYN-16-jZn" id="bCj-gx-PL6"/>
                         <outlet property="incomeImageView" destination="1WF-fm-tbi" id="KqE-Tv-k0B"/>
+                        <outlet property="incomeLabel" destination="FuR-Sz-45v" id="ypd-3j-JHN"/>
                         <outlet property="tagLabel" destination="tX9-Aq-IUI" id="pju-aQ-U68"/>
                         <outlet property="totalLabel" destination="eyK-J6-oHt" id="OiM-2x-aje"/>
                         <outlet property="tranView" destination="TD4-IE-TRU" id="mwy-EM-AbW"/>

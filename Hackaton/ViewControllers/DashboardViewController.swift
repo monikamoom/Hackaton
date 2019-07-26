@@ -15,6 +15,9 @@ class DashboardViewController: UIViewController {
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var tagLabel: UILabel!
     
+    @IBOutlet weak var balanceLabel: UILabel!
+    @IBOutlet weak var expenseLabel: UILabel!
+    @IBOutlet weak var incomeLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var income: UIView!
     @IBOutlet weak var expense: UIView!
@@ -24,6 +27,7 @@ class DashboardViewController: UIViewController {
         tranView.dropShadow()
         balanceView.dropShadow()
         feedData()
+        setInExBalance()
 
         
     }
@@ -53,9 +57,10 @@ extension DashboardViewController{
         V2.isHidden = true
         V1.dropShadow()
         income.backgroundColor = #colorLiteral(red: 0.5098039216, green: 0.7725490196, blue: 0.4196078431, alpha: 1)
-        expense.backgroundColor = #colorLiteral(red: 0.8549019608, green: 0.5568627451, blue: 0.5607843137, alpha: 1)
+        expense.backgroundColor = #colorLiteral(red: 0.9607843137, green: 0.662745098, blue: 0.6745098039, alpha: 1)
         expenseImageView.image = UIImage(named: "thai-baht-minus-light.png")
         incomeImageView.image = UIImage(named: "thai-baht-plus-click.png")
+        income.dropShadow()
 
         
     }
@@ -68,6 +73,7 @@ extension DashboardViewController{
         expense.backgroundColor = #colorLiteral(red: 0.8549019608, green: 0.4078431373, blue: 0.3725490196, alpha: 1)
         expenseImageView.image = UIImage(named: "thai-baht-minus-click.png")
         incomeImageView.image = UIImage(named: "thai-baht-plus-light.png")
+        expense.dropShadow()
     }
     
     func changeGrpah(_ page:String!){
@@ -89,13 +95,11 @@ extension DashboardViewController{
                 //print(value)
                 do{
                     let result = try JSONDecoder().decode(TransResponse.self, from: response.data!)
-                    //print(result[0].totalAmount)
-                    //print(result[0].categories[0].category)
                     let totalAmount = String(result[0].totalAmount)
                     let cate = "\(result[0].categories[0].category)"
                     let type = String(result[0].type)
                     self.setCategory(category: cate,type: type)
-                    self.setTrans(total: totalAmount)
+                    self.setTrans(total: totalAmount,type:type)
                 }catch {
                     
                 }
@@ -149,9 +153,49 @@ extension DashboardViewController{
             break
         }
     }
-    func setTrans(total:String){
+    func setTrans(total:String,type:String){
         self.totalLabel.text = "\(total) ฿"
+        if type == "income"{
+            self.totalLabel.textColor = #colorLiteral(red: 0, green: 0.8470588235, blue: 0.3098039216, alpha: 1)}
+        else{
+            self.totalLabel.textColor = #colorLiteral(red: 1, green: 0, blue: 0.2862745098, alpha: 1)
+        }
         
+    }
+    func setInExBalance(){
+        AF.request("https://looksorns123.localtunnel.me/balance", method: .get).responseJSON{
+            (response) in
+            switch response.result{
+            case .success(let value) :
+                //print(value)
+                do{
+                    let result = try JSONDecoder().decode(BalanceResponse.self, from: response.data!)
+                    self.balanceLabel.text = "\(result.balance) ฿"
+                    
+                }catch {
+                    
+                }
+            case .failure(let error) :
+                print(error)
+            }
+        }
+        AF.request("https://looksorns123.localtunnel.me/inex", method: .get).responseJSON{
+            (response) in
+            switch response.result{
+            case .success(let value) :
+                //print(value)
+                do{
+                    let result = try JSONDecoder().decode(InexResponse.self, from: response.data!)
+                    self.incomeLabel.text = "\(result[0].sum) ฿"
+                    self.expenseLabel.text = "\(result[1].sum) ฿"
+                    
+                }catch {
+                    
+                }
+            case .failure(let error) :
+                print(error)
+            }
+        }
     }
     
 }

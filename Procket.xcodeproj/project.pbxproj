@@ -16,6 +16,8 @@
 		5305791922E842B000C8A5CC /* CMExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5305791822E842B000C8A5CC /* CMExtension.swift */; };
 		534D06BC22EA1ECA00E67D2C /* transResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D06BB22EA1ECA00E67D2C /* transResponse.swift */; };
 		534D06BE22EA4B2C00E67D2C /* expenseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D06BD22EA4B2C00E67D2C /* expenseResponse.swift */; };
+		534D06C022EA82B700E67D2C /* inexResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D06BF22EA82B700E67D2C /* inexResponse.swift */; };
+		534D06C222EA835700E67D2C /* balanceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D06C122EA835700E67D2C /* balanceResponse.swift */; };
 		53CBA8FF22E9963C00461CD7 /* GraphIncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */; };
 		53CBA90322E9B7C000461CD7 /* GraphExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBA90222E9B7C000461CD7 /* GraphExpenseViewController.swift */; };
 		633227BAC814984805A6C7E1 /* Pods_Procket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B947957AA1A22F0B7C01872D /* Pods_Procket.framework */; };
@@ -42,6 +44,8 @@
 		5305791822E842B000C8A5CC /* CMExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMExtension.swift; sourceTree = "<group>"; };
 		534D06BB22EA1ECA00E67D2C /* transResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transResponse.swift; sourceTree = "<group>"; };
 		534D06BD22EA4B2C00E67D2C /* expenseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expenseResponse.swift; sourceTree = "<group>"; };
+		534D06BF22EA82B700E67D2C /* inexResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inexResponse.swift; sourceTree = "<group>"; };
+		534D06C122EA835700E67D2C /* balanceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balanceResponse.swift; sourceTree = "<group>"; };
 		53CBA8FE22E9963C00461CD7 /* GraphIncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphIncomeViewController.swift; sourceTree = "<group>"; };
 		53CBA90222E9B7C000461CD7 /* GraphExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphExpenseViewController.swift; sourceTree = "<group>"; };
 		594433F77DFDACCE07D495E5 /* Pods-Procket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Procket.debug.xcconfig"; path = "Target Support Files/Pods-Procket/Pods-Procket.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 			children = (
 				534D06BB22EA1ECA00E67D2C /* transResponse.swift */,
 				534D06BD22EA4B2C00E67D2C /* expenseResponse.swift */,
+				534D06BF22EA82B700E67D2C /* inexResponse.swift */,
+				534D06C122EA835700E67D2C /* balanceResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -292,6 +298,8 @@
 				53CBA90322E9B7C000461CD7 /* GraphExpenseViewController.swift in Sources */,
 				B03244DE22E92BCC00427B8F /* TransactionViewController.swift in Sources */,
 				5305791922E842B000C8A5CC /* CMExtension.swift in Sources */,
+				534D06C222EA835700E67D2C /* balanceResponse.swift in Sources */,
+				534D06C022EA82B700E67D2C /* inexResponse.swift in Sources */,
 				534D06BE22EA4B2C00E67D2C /* expenseResponse.swift in Sources */,
 				B0F7CFC422E8CF5A001F9108 /* DashboardViewController.swift in Sources */,
 				5305790422E7F6BF00C8A5CC /* AppDelegate.swift in Sources */,

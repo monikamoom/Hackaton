@@ -65,7 +65,7 @@ extension TransactionViewController: UITableViewDelegate,UITableViewDataSource{
         cell.mTag.text = "Tag"
         switch mTransactionArray[indexPath.row].type {
         case "income":
-            cell.mAmount.textColor = #colorLiteral(red: 0, green: 0.8475771546, blue: 0.3085287809, alpha: 1)
+            cell.mAmount.textColor = #colorLiteral(red: 0, green: 0.8470588235, blue: 0.3098039216, alpha: 1)
         case "expense":
             cell.mAmount.textColor = #colorLiteral(red: 1, green: 0, blue: 0.2847501636, alpha: 1)
         default:
